@@ -53,7 +53,7 @@ int readIntFromFile(const char *path, int base, int *out)
 /*
 This example shows how to get a single raw videoframe using mmap.
 It is the fastest method to grab a raw frame and have a look at it's data, or write it to a file.
-This is probably best for something ambient light frame analysis and things alike.
+This is probably best for things like ambient light video-frame analysis and things alike.
 
 Call VIDEOGRABBER_IOC_GET_FRAME again to get an updated frame.
 Subsequent calls to VIDEOGRABBER_IOC_GET_FRAME overwrite the preceding frame!
